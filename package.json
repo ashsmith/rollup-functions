@@ -1,0 +1,21 @@
+{
+  "name": "lambda-rollup-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "source-map-support": "^0.5.19"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "rollup": "^2.18.1",
+    "rollup-plugin-sourcemaps": "^0.6.2",
+    "rollup-plugin-zip": "^1.0.1"
+  },
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js"
+  }
+}
