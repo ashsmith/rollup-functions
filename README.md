@@ -1,5 +1,14 @@
 # Rollup bundling proof of concept.
 
+## Get Started:
+
+```
+yarn install
+yarn run build
+node dist/getUsers/index.js
+open http://localhost:3000
+```
+
 ## Objective:
 
 Use rollup to bundle functions with only the dependencies required. That way if you have multiple lambda functions in a single repo that don't share all dependencies you can package each one up without having to manage multiple package.json files.
